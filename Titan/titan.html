@@ -1,0 +1,169 @@
+<!Doctype html>
+
+<html lang="vi">
+
+<head>
+    <meta charset="utf-8">
+    <title> Phim Peak</title>
+    <link rel="stylesheet" href="../css/style.css">
+
+</head>
+
+
+
+<body>
+    <!-- checkbox ẩn -->
+    <input type="checkbox" id="openLogin" hidden>
+
+    <header class="header">
+        <div class="logo">MOVIE</div>
+
+        <nav class="menu">
+            <a href="../home.html">Home</a>
+            <a href="../Movie.html">Movies</a>
+            <a href="#">Series</a>
+        </nav>
+
+        <!-- nút login -->
+        <label for="openLogin" class="btn-login">Login</label>
+    </header>
+
+
+
+
+
+
+    <section class="hero hero_titan">
+
+        <!-- KHỐI TEXT -->
+        <div class="hero-content">
+            <p class="tag">NEW ANIME MOVIE</p>
+            <h1 class="title">Attack On Titan</h1>
+            <p class="desc">
+                Trong một thế giới nơi nhân loại phải sống sau những bức tường khổng lồ để tránh
+những Titan ăn thịt người, Eren Yeager cùng các đồng đội gia nhập quân đoàn trinh sát
+để chiến đấu giành lại tự do. Cuộc hành trình đầy mất mát, bí mật và sự thật gây sốc
+về nguồn gốc Titan dần được hé lộ.
+            </p>
+            <button class="btn-watch">Watch Trailer</button>
+        </div>
+
+
+        <!-- SLIDER -->
+        <div class="slider">
+            <!-- poster phim sẽ nằm đây -->
+            <img src="../asset/attack.jpg" alt="Poster dargon">
+        </div>
+
+<table class="movie-info">
+<tr>
+  <th>Tiêu đề</th>
+  <td>Attack on Titan</td>
+</tr>
+<tr>
+  <th>Thể loại</th>
+  <td>Hành động, Phiêu lưu, Dark Fantasy</td>
+</tr>
+<tr>
+  <th>Năm phát hành</th>
+  <td>2013</td>
+</tr>
+<tr>
+  <th>Thời lượng</th>
+  <td>~24 phút / tập</td>
+</tr>
+<tr>
+  <th>Đạo diễn</th>
+  <td>Tetsurō Araki</td>
+</tr>
+<tr>
+  <th>Studio</th>
+  <td>Wit Studio / MAPPA</td>
+</tr>
+<tr>
+  <th>Quốc gia</th>
+  <td>Nhật Bản</td>
+</tr>
+<tr>
+  <th>Đánh giá</th>
+  <td>⭐⭐⭐⭐⭐</td>
+</tr>
+</table>
+	
+    </section>
+
+
+
+    <section class="movie-list">
+
+        <h2 class="section-title">Có Thể Bạn Sẽ Thích</h2>
+
+        <div class="movie-slider">
+
+         <a href="../Dargonball/dargonball1.html" class="movie-link">
+            <div class="movie-card">
+                <div class="poster">
+                <img src="../asset/dargonball1.jpg" alt="">
+                <span class="badge top">Phim mới</span>
+                <span class="badge right">Vietsub - HD</span>
+                </div>
+            <p class="movie-title">Dargon Ball</p>
+            </div>
+		</a>
+
+
+		<a href="../Dargonball/dargonball.html" class="movie-link">
+         	   <div class="movie-card">
+                <div class="poster">
+                <img src="../asset/dargonball.jpg" alt="">
+                <span class="badge top">Phim mới</span>
+                <span class="badge right">Vietsub - HD</span>
+                </div>
+           	 <p class="movie-title">Dargon Ball</p>
+            	</div>
+		</a>
+
+
+        </div>
+
+    </section>
+
+
+
+
+    <div class="login-modal">
+        <div class="login-box">
+
+            <!-- nút đóng -->
+            <label for="openLogin" class="close-btn">✖</label>
+
+            <form action="action_page.html">
+                <label for="tk">Tài khoản:</label><br>
+                <input type="text" id="tk" name="tk"><br>
+
+                <label for="mk">Mật Khẩu:</label><br>
+                <input type="password" id="mk" name="mk"><br><br>
+
+                <input type="submit" value="Đăng Nhập">
+
+                <div class="login-links">
+                    <a href="#">Forgot password?</a>
+                    <a href="#">Create account</a>
+                </div>
+            </form>
+
+        </div>
+    </div>
+
+</body>
+<script>
+  window.addEventListener("load", () => {
+    document.body.classList.add("loaded");
+  });
+</script>
+
+
+
+
+
+</html>

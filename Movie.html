@@ -1,0 +1,165 @@
+<!Doctype html>
+
+<html lang="vi">
+
+<head>
+    <meta charset="utf-8">
+    <title> Phim Peak</title>
+    <link rel="stylesheet" href="css/stylehome.css">
+
+</head>
+
+
+
+
+<body>
+    <!-- checkbox ẩn -->
+    <input type="checkbox" id="openLogin" hidden>
+
+    <header class="header">
+        <div class="logo">MOVIES</div>
+
+        <nav class="menu">
+            <a href="home.html">Home</a>
+            <a href="Movie.html">Movies</a>
+            <a href="#">Series</a>
+        </nav>
+
+        <!-- nút login -->
+        <label for="openLogin" class="btn-login">Login</label>
+    </header>
+
+
+
+    <section class="movie-list">
+
+        <h2 class="section-title">Movie Naruto</h2>
+
+        <div class="movie-slider">
+	
+	<a href="naruto/naruto.html" class="movie-link">
+            <div class="movie-card">
+                <div class="poster">
+                <img src="asset/naruto.jpg" alt="">
+                <span class="badge top">Phim mới</span>
+                <span class="badge right">Vietsub - HD</span>
+                </div>
+            <p class="movie-title">Naruto The Movie</p>
+            </div>
+
+		</a>
+		
+            <a href="naruto/naruto1.html" class="movie-link">
+            <div class="movie-card">
+                <div class="poster">
+                <img src="asset/naruto1.jpg" alt="">
+                <span class="badge top">Phim mới</span>
+                <span class="badge right">Vietsub - HD</span>
+                </div>
+            <p class="movie-title">Naruto The Movie</p>
+            </div>
+	  </a>
+
+           <a href="naruto/naruto.html" class="movie-link">
+            <div class="movie-card">
+                <div class="poster">
+                <img src="asset/naruto.jpg" alt="">
+                <span class="badge top">Phim mới</span>
+                <span class="badge right">Vietsub - HD</span>
+                </div>
+            <p class="movie-title">Naruto The Movie</p>
+            </div>
+
+		</a>
+
+  	 <a href="naruto/naruto1.html" class="movie-link">
+            <div class="movie-card">
+                <div class="poster">
+                <img src="asset/naruto1.jpg" alt="">
+                <span class="badge top">Phim mới</span>
+                <span class="badge right">Vietsub - HD</span>
+                </div>
+            <p class="movie-title">Naruto The Movie</p>
+            </div>
+	  </a>
+
+        </div>
+
+	<h2 class="section-title">Movie Doremon</h2>
+
+	
+        <div class="movie-slider">
+		<a href="Doreamon/doremon.html" class="movie-link">
+            	<div class="movie-card">
+                <div class="poster">
+                <img src="asset/doremon.jpg" alt="">
+                <span class="badge top">Phim mới</span>
+                <span class="badge right">Vietsub - HD</span>
+                </div>
+           	<p class="movie-title">Doremon Movie</p>
+            	</div>
+		</a>
+
+
+		<a href="Doreamon/doremon1.html" class="movie-link">
+            	<div class="movie-card">
+                <div class="poster">
+                <img src="asset/doremon1.jpg" alt="">
+                <span class="badge top">Phim mới</span>
+                <span class="badge right">Vietsub - HD</span>
+                </div>
+           	<p class="movie-title">Doremon Movie</p>
+            	</div>
+		</a>
+
+
+        </div>
+
+
+    </section>
+
+
+
+
+    <div class="login-modal">
+        <div class="login-box">
+
+            <!-- nút đóng -->
+            <label for="openLogin" class="close-btn">✖</label>
+
+            <form action="action_page.html">
+                <label for="tk">Tài khoản:</label><br>
+                <input type="text" id="tk" name="tk"><br>
+
+                <label for="mk">Mật Khẩu:</label><br>
+                <input type="password" id="mk" name="mk"><br><br>
+
+                <input type="submit" value="Đăng Nhập">
+
+                <div class="login-links">
+                    <a href="#">Forgot password?</a>
+                    <a href="#">Create account</a>
+                </div>
+            </form>
+
+        </div>
+    </div>
+<footer class="footer">
+  <p>© 2026 Movie Website | Designed by Trần Quốc Đỉnh</p>
+</footer>
+
+</body>
+
+<script>
+  window.addEventListener("load", () => {
+    document.body.classList.add("loaded");
+  });
+</script>
+
+
+
+
+
+
+
+</html>

@@ -1,0 +1,168 @@
+<!Doctype html>
+
+<html lang="vi">
+
+<head>
+    <meta charset="utf-8">
+    <title> Phim Peak</title>
+    <link rel="stylesheet" href="../css/style.css">
+
+</head>
+
+
+
+<body>
+    <!-- checkbox ẩn -->
+    <input type="checkbox" id="openLogin" hidden>
+
+    <header class="header">
+        <div class="logo">MOVIE</div>
+
+        <nav class="menu">
+            <a href="../home.html">Home</a>
+            <a href="../Movie.html">Movies</a>
+            <a href="#">Series</a>
+        </nav>
+
+        <!-- nút login -->
+        <label for="openLogin" class="btn-login">Login</label>
+    </header>
+
+
+
+
+
+
+    <section class="hero hero_dargonball1">
+
+        <!-- KHỐI TEXT -->
+        <div class="hero-content">
+            <p class="tag">NEW ANIME MOVIE</p>
+            <h1 class="title">Dargonball The Movie</h1>
+            <p class="desc">
+                Son Goku cùng những người bạn bước vào cuộc chiến đầy thử thách 
+để bảo vệ thế giới ninja trước một thế lực nguy hiểm. 
+Hành trình trưởng thành, tình bạn và lòng dũng cảm được thể hiện rõ nét.
+            </p>
+            <button class="btn-watch">Watch Trailer</button>
+        </div>
+
+
+        <!-- SLIDER -->
+        <div class="slider">
+            <!-- poster phim sẽ nằm đây -->
+            <img src="../asset/dargonball1.jpg" alt="Poster dargon">
+        </div>
+
+ <table class="movie-info">
+<tr>
+  <th>Tiêu đề</th>
+  <td>Dragon Ball Z: Broly – The Legendary Super Saiyan</td>
+</tr>
+<tr>
+  <th>Thể loại</th>
+  <td>Hành động, Phiêu lưu, Anime</td>
+</tr>
+<tr>
+  <th>Năm phát hành</th>
+  <td>1993</td>
+</tr>
+<tr>
+  <th>Thời lượng</th>
+  <td>72 phút</td>
+</tr>
+<tr>
+  <th>Đạo diễn</th>
+  <td>Shigeyasu Yamauchi</td>
+</tr>
+<tr>
+  <th>Nguyên tác</th>
+  <td>Akira Toriyama</td>
+</tr>
+<tr>
+  <th>Quốc gia</th>
+  <td>Nhật Bản</td>
+</tr>
+<tr>
+  <th>Đánh giá</th>
+  <td>⭐⭐⭐⭐⭐</td>
+</tr>
+</table>
+	
+    </section>
+
+
+
+    <section class="movie-list">
+
+        <h2 class="section-title">Popular Movies</h2>
+
+        <div class="movie-slider">
+
+         <a href="dargonball.html" class="movie-link">
+            <div class="movie-card">
+                <div class="poster">
+                <img src="../asset/dargonball.jpg" alt="">
+                <span class="badge top">Phim mới</span>
+                <span class="badge right">Vietsub - HD</span>
+                </div>
+            <p class="movie-title">Dargon Ball</p>
+            </div>
+		</a>
+
+
+		<a href="dargonball1.html" class="movie-link">
+         	   <div class="movie-card">
+                <div class="poster">
+                <img src="../asset/dargonball1.jpg" alt="">
+                <span class="badge top">Phim mới</span>
+                <span class="badge right">Vietsub - HD</span>
+                </div>
+           	 <p class="movie-title">Dargon Ball</p>
+            	</div>
+		</a>
+
+
+        </div>
+
+    </section>
+
+
+
+
+    <div class="login-modal">
+        <div class="login-box">
+
+            <!-- nút đóng -->
+            <label for="openLogin" class="close-btn">✖</label>
+
+            <form action="action_page.html">
+                <label for="tk">Tài khoản:</label><br>
+                <input type="text" id="tk" name="tk"><br>
+
+                <label for="mk">Mật Khẩu:</label><br>
+                <input type="password" id="mk" name="mk"><br><br>
+
+                <input type="submit" value="Đăng Nhập">
+
+                <div class="login-links">
+                    <a href="#">Forgot password?</a>
+                    <a href="#">Create account</a>
+                </div>
+            </form>
+
+        </div>
+    </div>
+
+</body>
+<script>
+  window.addEventListener("load", () => {
+    document.body.classList.add("loaded");
+  });
+</script>
+
+
+
+
+
+</html>

@@ -1,0 +1,58 @@
+.header{
+
+	height: 100px;
+	background: lightblue;
+
+	max-width:100%;
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+	/*overflow: hidden;*/
+	padding: 0 20px;
+}
+
+
+.Logo {
+	display: flex;
+ 	align-items: center;
+	gap: 10px;
+
+}
+
+.Logo img{
+	height: 50px;
+  	width: auto;
+}
+
+.Logo span{
+	font-size: 15px;
+  	font-weight: bold;
+	font-family:arial;
+	
+}
+
+
+.menu {
+	  display: flex;
+  	  gap: 25px; 
+	  padding: 0 20px;     
+
+}
+
+.menu a {
+  text-decoration: none;
+  color: blue;
+  font-size: 20px;
+  transition: 0.3s;
+}
+
+
+.menu a:hover{
+	color: yellow;
+	transform: scale(1.2);
+	
+}
+body {
+	margin: 0;
+	
+}
